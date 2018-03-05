@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">নামাযের সময়সূচী</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="string_city_name">ঢাকা</string>
+    <string name="string_prayer_time">আজকের নামাযের সময়সূচী</string>
+    <string name="string_fajr">ফজর</string>
+    <string name="string_johr">যুহর</string>
+    <string name="string_asar">আসর</string>
+    <string name="string_magrib">মাগরিব</string>
+    <string name="string_esha">ইশা</string>
+
+</resources>

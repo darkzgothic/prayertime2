@@ -1,0 +1,220 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zahidhasan.app.prayertimeapp.fragments.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/string_city_name"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/string_prayer_time"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp">
+
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/string_fajr"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:id="@+id/fajr_txt_view"/>
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/fajr_txt_view"
+                        android:text="4:00"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:id="@+id/fajr_time_txt_view"/>
+
+                    <Switch
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/fajr_time_txt_view"
+                        android:layout_marginStart="17dp"
+                        android:id="@+id/switch_fajr" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/string_johr"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:id="@+id/johr_txt_view"/>
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/johr_txt_view"
+                        android:text="4:00"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:id="@+id/johr_time_txt_view"/>
+
+                    <Switch
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/johr_time_txt_view"
+                        android:layout_marginStart="17dp"
+                        android:id="@+id/switch_johr" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp">
+
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/string_asar"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:id="@+id/asar_txt_view"/>
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/asar_txt_view"
+                        android:text="4:00"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:id="@+id/asar_time_txt_view"/>
+
+                    <Switch
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/asar_time_txt_view"
+                        android:layout_marginStart="17dp"
+                        android:id="@+id/switch_asar" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp">
+
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/string_magrib"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:id="@+id/magrib_txt_view"/>
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/magrib_txt_view"
+                        android:text="4:00"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:id="@+id/magrib_time_txt_view"/>
+
+                    <Switch
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/magrib_time_txt_view"
+                        android:layout_marginStart="17dp"
+                        android:id="@+id/switch_magrib" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp">
+
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/string_esha"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:id="@+id/esha_txt_view"/>
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/esha_txt_view"
+                        android:text="4:00"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:id="@+id/esha_time_txt_view"/>
+
+                    <Switch
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/esha_time_txt_view"
+                        android:layout_marginStart="17dp"
+                        android:id="@+id/switch_esha" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
